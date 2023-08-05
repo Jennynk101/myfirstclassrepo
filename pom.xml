@@ -37,5 +37,17 @@
 			</plugin>
 		</plugins>
 	</build>
-
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>springboot-first-app</name>
+        <url>https://geopellcloud.jfrog.io/artifactory/geopellcloud</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>springboot-first-app</name>
+        <url>https://geopellcloud.jfrog.io/artifactory/geopellcloud</url>
+    </snapshotRepository>
+ </distributionManagement>
 </project>
+	
